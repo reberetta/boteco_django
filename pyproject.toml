@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "boteco_django"
+version = "0.1.0"
+description = ""
+authors = ["Regina"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+Django = "^3.1.6"
+django-restframework = "^0.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
